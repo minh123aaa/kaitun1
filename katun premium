@@ -9,7 +9,7 @@ Setup = {
         }
     },
     ['Panic % Health'] = {35, 55},
-    ['Chatting'] = {"non lắm con ạ""ezzzzzzzzz"},
+    ['Chatting'] = {"non lắm con ạ"},
     ['Lock Cam'] = false,
     ['Hop Region'] = 'Singapore',
     ['Random Y Tween'] = false,
