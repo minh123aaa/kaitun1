@@ -1,0 +1,41 @@
+Config =
+    Config or
+    {
+        ["Main"] = {},
+        ["Process"] = {
+            ["Force Staying In Second Sea Until Have Dark Fragments"] = true,
+            ["Soul Guitar Quest"] = false,
+            ["Cursed Dual Katana Quest"] = false,
+            ["Auto Fully Mirror Fragtal"] = true,
+            ["Purchase Hidden Sword"] = false,
+            ["Purchase Legend Haki Color"] = false,
+            ["Max Fragments To Raid"] = {2000, 7500}, -- just effect if player level isnt max / first arg: sea 2, sec arg: sea 3
+            ["Fruit Hop"] = {
+                ["Enable"] = true,
+                ["Delay Per Server"] = 60
+            }, 
+            ["Farm Mastery Fruit"] = false,
+            ["Auto Get Blue Gear"] = true, 
+            ["Auto Afk Mirage Island When No Task Left For Blue Gear"] = true, 
+            ["Auto Shark Anchor"] = false,
+        },
+        ["Demon Fruit"] = {
+            ["Sniping Fruit"] = {
+                "Dough-Dough"
+            }, --Fruit to snipe when it on stock
+            ["Only Eat Awakenable Fruit"] = true,
+            ["Lock Fruit"] = {"Kitsune-Kitsune"}
+        },
+        ["Farming"] = {
+            ["Type Of Farming When Done All Tasks"] = "Custom Script", -- Custom Script / Nearby Farm /
+            ["Custom Script"] = "game:Shutdown()"
+        },
+        ["Utilly"] = {
+            ["White Screen"] = false,
+            ["Auto Add Friends / Accept Requests"] = true,
+            ["Anti Flagging"] = true,
+            ["Auto Hop If There Are Nearby Player When Level Farming"] = true,
+            ["Enable Ui"] = false,
+        }
+    } 
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/68466bbc584efd9ada107bdcae346cd4.lua"))()
